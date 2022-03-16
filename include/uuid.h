@@ -18,6 +18,9 @@
 #ifdef __cpp_lib_span
 #include <span>
 #endif
+#ifndef __cpp_lib_span
+#include <gsl/gsl>
+#endif
 
 #ifdef _WIN32
 
